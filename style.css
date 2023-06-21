@@ -1,15 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 header {
     background-color: #ffffff;
     color: #ff05b4;
     display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
 
 .imagems{
     width: 150px;
     height: 150px;
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagem{
+    width: 500px;
+    height: 500px;
+    margin: 0;
+    padding: 0;
 }
 
 .cabeçalho{
