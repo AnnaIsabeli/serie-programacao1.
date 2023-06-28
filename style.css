@@ -4,29 +4,73 @@
 }
 
 header {
-    background-color: #ffffff;
-    color: #ff05b4;
-    display:flex;
-    justify-content:space-around;
+    background-color: #fafafa;
+    color: #ff009d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+
+}
+
+.imagem-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0,5px;
+    padding: 0,5px;
+
+}
+
+.cabeçalho-item {
+    display: inline-block;
+
+}
+
+.lista1 {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.imagem-colegio {
+    width: 20%;
+    height: 20%;
+}
+
+.Escola {
+    background-image: linear-gradient(#ff009d,#ffffff);
+    color: white;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 24px 0;
 }
 
-
-.imagems{
-    width: 150px;
-    height: 150px;
-    margin: 0px;
-    padding: 0px;
+.escola-div-conteudo {
+    width: 35%;
 }
 
-.imagem{
-    width: 500px;
-    height: 500px;
-    margin: 0;
-    padding: 0;
+.fliricultura {
+    padding: 5% 0;
+
 }
 
-.cabeçalho{
-    display:flex
+.estudante-imagem {
+    width: 250px;
+
+}
+
+.Estudantes {
+    background-image: linear-gradient(#ff009d, #ffff);
+    display: flex;
+    justify-content: center;
+
+}
+
+.estudante-titulo {
+    color: #ffffff;
+}
+
+.estudantes-div {
+    text-align: center;
+    padding: 16px 0;
 }
